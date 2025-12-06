@@ -5,6 +5,7 @@ document.getElementById('booking-form').addEventListener('submit', function(even
     const date = document.getElementById('date').value;
     const time = document.getElementById('time').value;
     // BUG: Missing check for time and date validity
+    I DONT KNOW
     const confirmation = document.getElementById('confirmation');
     confirmation.innerText = 'Booking confirmed for ' + name + ' on ' + date + ' at ' + time + '!';
     // TODO: Add functionality to save the booking
